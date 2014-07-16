@@ -13,4 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require parsley
+//= require parsley.remote
+//= require parsley.i18n.fr
 //= require_tree .
