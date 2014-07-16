@@ -1,13 +1,13 @@
 <h1>Profiles</h1>
 
 <%= simple_form_for @profile, html: {'data-parsley-validate' => ''} do |f| %>
-  <%= f.input :name, "data-parsley-required"=> true %>
-  <%= f.input :about%>
-  <%= f.input :gender%>
-  <%= f.input :happy%>
-  <%= f.input :homepage%>
-  <%= f.input :email%>
-  <%= f.input :date_of_birth, prompt: true%>
-  <%= f.input :zip_code %>
+  <%= f.input :name, validate: true, "data-parsley-required"=> true %>
+  <%= f.input :about, validate: true%>
+  <%= f.input :gender, validate: true%>
+  <%= f.input :happy, validate: true%>
+  <%= f.input :homepage, validate: true%>
+  <%= f.input :email, validate: true%>
+  <%= f.input :date_of_birth, prompt: true, validate: true%>
+  <%= f.input :zip_code, validate: true %>
   <%= f.submit "Create!", class: "btn btn-primary btn-lg" %>
 <% end %>

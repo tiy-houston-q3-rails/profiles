@@ -6,6 +6,7 @@ SimpleForm.setup do |config|
 
   config.wrappers :vertical_form, tag: 'div', class: 'form-group', error_class: 'has-error' do |b|
     b.use :html5
+    b.use :judge
     b.use :placeholder
     b.optional :maxlength
     b.optional :pattern
@@ -52,6 +53,7 @@ SimpleForm.setup do |config|
 
   config.wrappers :horizontal_form, tag: 'div', class: 'form-group', error_class: 'has-error' do |b|
     b.use :html5
+    b.use :judge
     b.use :placeholder
     b.optional :maxlength
     b.optional :pattern
