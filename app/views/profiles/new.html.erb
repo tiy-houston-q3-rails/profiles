@@ -1,0 +1,13 @@
+<h1>Profiles</h1>
+
+<%= simple_form_for @profile do |f| %>
+  <%= f.input :name %>
+  <%= f.input :about%>
+  <%= f.input :gender%>
+  <%= f.input :happy%>
+  <%= f.input :homepage%>
+  <%= f.input :email%>
+  <%= f.input :date_of_birth, prompt: true%>
+  <%= f.input :zip_code %>
+  <%= f.submit "Create!", class: "btn btn-primary btn-lg" %>
+<% end %>

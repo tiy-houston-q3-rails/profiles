@@ -1,0 +1,15 @@
+// Place all the styles related to the profiles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.title-hero {
+  font-size: 4rem;
+  color: #ecf0f1;
+  text-align: center;
+  background: image-url("title-background.png");
+  height: 12rem;
+  h1 {
+    padding-top: 4rem;
+  }
+}
