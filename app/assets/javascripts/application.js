@@ -16,4 +16,7 @@
 //= require json2
 //= require judge
 //= require turbolinks
+//= require parsley
+//= require parsley.remote
+//= require parsley.i18n.fr
 //= require_tree .

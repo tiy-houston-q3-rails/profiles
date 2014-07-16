@@ -39,5 +39,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'simple_form', '3.1.0.rc2'
+gem "parsley-rails"
 gem 'judge'
 gem 'judge-simple_form'

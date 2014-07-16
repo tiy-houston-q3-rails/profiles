@@ -1,7 +1,7 @@
 <h1>Profiles</h1>
 
-<%= simple_form_for @profile do |f| %>
-  <%= f.input :name, validate: true %>
+<%= simple_form_for @profile, html: {'data-parsley-validate' => ''} do |f| %>
+  <%= f.input :name, validate: true, "data-parsley-required"=> true %>
   <%= f.input :about, validate: true%>
   <%= f.input :gender, validate: true%>
   <%= f.input :happy, validate: true%>
